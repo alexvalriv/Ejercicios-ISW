@@ -5,5 +5,6 @@ public class Escuderia{
 
     public ICollection<Persona> Fundadores{get;set;}
     public ICollection<Piloto> Pilotos{get;set;}
+    public ICollection<Contrato> Contratos{get;set;} 
     
 }
